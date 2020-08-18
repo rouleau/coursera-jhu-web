@@ -10,6 +10,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+  padding: 10px;
+}
+
 h1 {
   font-size: 1.75em;
   text-align: center;
@@ -19,18 +23,16 @@ h1 {
 
 h2 {
   font-size: 1.25em;
+  padding: 5px 50px 5px 50px;
   border: 1px solid black;
   float: right;
-}
-
-section {
-  padding: 10px;
 }
 
 p {
   padding: 10px;
   border: 1px solid black;
   background-color: #999999;
+  clear: right;
 }
 
 #chicken {
